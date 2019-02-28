@@ -49,13 +49,14 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  *list the directories and files in the current working directory*
-`ls -a`  *list the hidden directories and files in the working directory*
-`ls -l`  *list the permissions of all directories and files in the working directory*
-`ls -lh`  *list the permissions of all directories and files in the working directory in human readable format*
-`ls -lah` *list the permissions of all hidden directories and files in root use and working directory in human reable format* 
-`ls -t`  *list the directories and files in the working directory by modification time*
-`ls -Glp` *list all directories and files with CLICOLOR, / if it is a directory, and it's permissions in the working directory*  
+
+* `ls`  *list the directories and files in the current working directory*
+* `ls -a`  *list the hidden directories and files in the working directory*
+* `ls -l`  *list the permissions of all directories and files in the working directory*
+* `ls -lh`  *list the permissions of all directories and files in the working directory in human readable format*
+* `ls -lah` *list the permissions of all hidden directories and files in root use and working directory in human reable format* 
+* `ls -t`  *list the directories and files in the working directory by modification time*
+* `ls -Glp` *list all directories and files with CLICOLOR, / if it is a directory, and it's permissions in the working directory*  
 
 
 
