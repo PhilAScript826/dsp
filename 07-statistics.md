@@ -69,7 +69,7 @@ Cohen's D is an example of effect size.  Other examples of effect size are:  cor
 
 Code for Difference |  Code for Cohen Effect Size
 
-——---------|——---------- 
+———————————|———————————
 
 ```firsts.totalwgt_lb.mean()-others.totalwgt_lb.mean() = -0.12376118453549034``` | ```CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb) = -0.08867292702602```
 
