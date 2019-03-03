@@ -148,6 +148,16 @@ thinkplot.Config(xlabel='Random Numbers', ylabel='CDF', loc='upper left')
 
 This is a classic example of hypothesis testing using the normal distribution.  The effect size used here is the Z-statistic. 
 
+Percentage of people between 5'10 and 6'1: 34%
+
+```python
+from __future__ import division
+fiveTen= dist.cdf(177.8)   
+sixOne = dist.cdf(185.4) 
+percentage=sixOne - fiveTen
+print("{:.0%}".format(percentage))
+```
+
 
 
 ### Q5. Bayesian (Elvis Presley twin) 
