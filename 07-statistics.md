@@ -166,18 +166,16 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> Written as $P(A\,|\,B)​$ where:
->>
->> * A = Identical Twins
->> * B = Twins
->> * C = Fraternal
->> * $P(A\,|\,B)​$ = $\frac{P(A\,and\,B)}{P(B)}​$
->> * $P(A\,and\,B) = P(B\,|\,A)*P(A) = \frac{1}2 * \frac{1}{300} = .001666\; or\; \frac{1}{600}​$
->> * $P(B) =  P(B\,|\,A)*P(A) + P(B\,|\,C)*P(C)​$ 
->> * $=  \frac{1}2 * \frac{1}{300} + \frac{1}4 * \frac{1}{125} = .0036666\;or\;\frac{11}{3000}​$
->> * $P(A\,|\,B) = \frac{P(B\,|\,A)*P(A) }{P(B\,|\,A)*P(A) + P(B\,|\,C)*P(C)} = \frac{\frac{1}2 * \frac{1}{300}}{\frac{1}2 * \frac{1}{300} + \frac{1}4 * \frac{1}{125}} = \frac{\frac{1}{600}}{\frac{11}{3000}} = 5/11$
->>
->> 
+Written as $P(A\,|\,B)$ where:
+
+* A = Identical Twins
+* B = Twins
+* C = Fraternal
+* $P(A\,|\,B)$ = $\frac{P(A\,and\,B)}{P(B)}$
+* $P(A\,and\,B) = P(B\,|\,A)*P(A) = \frac{1}2 * \frac{1}{300} = .001666\; or\; \frac{1}{600}$
+* $P(B) =  P(B\,|\,A)*P(A) + P(B\,|\,C)*P(C)$ 
+* $=  \frac{1}2 * \frac{1}{300} + \frac{1}4 * \frac{1}{125} = .0036666\;or\;\frac{11}{3000}$
+* $P(A\,|\,B) = \frac{P(B\,|\,A)*P(A) }{P(B\,|\,A)*P(A) + P(B\,|\,C)*P(C)} = \frac{\frac{1}2 * \frac{1}{300}}{\frac{1}2 * \frac{1}{300} + \frac{1}4 * \frac{1}{125}} = \frac{\frac{1}{600}}{\frac{11}{3000}} = 5/11$
 
 ---
 
